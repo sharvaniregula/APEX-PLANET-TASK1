@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wlcome Page</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            margin: 20px;
+            padding: 20px;
+            color:black;
+        }
+        h1{
+            color:blueviolet;
+            text-align: center;
+        }
+        p{
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        img{
+            width: 300px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+        }
+        button{
+            display: block;
+            margin: 30px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: palevioletred;
+            color: whitesmoke;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>HELLO AND WELCOME</h1>
+    <p>This is basic html webpage using css for styling and JavaScript for little fun interactivity.</p>
+    <p>Here is a Picture of a Gaint Panda</p>
+    <img src="./photo-1659540181281-1d89d6112832.jpeg" alt="panda-image">
+    <p>If you are curious to learn about web development visit some of the youtube pages</p>
+    <a href="https://developer.mozilla.org/en-US/docs/Web" target="_blank">MDN Web Docs</a>
+    <button onclick="showAlert()">CLick Me to Say Hi</button>
+    <script>
+        function showAlert(){
+        alert("Hi there! Thanks for Clicking the button");
+        }
+    </script>
+</body>
+</html>
